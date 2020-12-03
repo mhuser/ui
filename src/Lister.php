@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace atk4\ui;
 
+use atk4\data\Model;
+
 class Lister extends View
 {
     use \atk4\core\HookTrait;
