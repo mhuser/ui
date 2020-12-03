@@ -185,7 +185,7 @@ class View extends AbstractView implements JsExpressionable
      */
     public function setSource(array $data, $fields = null)
     {
-        $this->setModel(new Model(new Static_($data)), $fields);
+        $this->setModel(new Model(new Static_($data)), $fields); // @phpstan-ignore-line
         $this->model->getField($this->model->id_field)->type = null; // TODO probably unwanted
 
         return $this->model;
