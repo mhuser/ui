@@ -79,6 +79,7 @@ use atk4\ui\Form;
 use atk4\ui\HtmlTemplate;
 use atk4\ui\JsCallback;
 use atk4\ui\View;
+use atk4\ui\JsFunction;
 
 class Multiline extends Form\Control
 {
@@ -691,7 +692,7 @@ class Multiline extends Form\Control
         $this->cb->set(function () {
             try {
                 return $this->renderCallback();
-            } catch (\atk4\Core\Exception | \Error $e) {
+            } catch (\atk4\core\Exception | \Error $e) {
                 $this->getApp()->terminateJson(['success' => false, 'error' => $e->getMessage()]);
             }
         });

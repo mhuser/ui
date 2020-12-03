@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace atk4\ui\Form\Control;
 
 use atk4\ui\Form;
+use atk4\ui\Lister;
 
 /**
  * Input element for a form control.
