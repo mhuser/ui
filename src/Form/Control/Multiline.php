@@ -443,7 +443,7 @@ class Multiline extends Form\Control
      *
      * Finds and returns Multiline row id.
      *
-     * @return |null
+     * @return mixed
      */
     private function getMlRowId(array $row)
     {
