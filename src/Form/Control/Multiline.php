@@ -78,8 +78,8 @@ use atk4\ui\Exception;
 use atk4\ui\Form;
 use atk4\ui\HtmlTemplate;
 use atk4\ui\JsCallback;
-use atk4\ui\View;
 use atk4\ui\JsFunction;
+use atk4\ui\View;
 
 class Multiline extends Form\Control
 {
